@@ -25,7 +25,7 @@ def listAsStr(l):
 def getIkeaProducts(n):
     furniture = getFurnitureList()
     adjectives = getAdjectiveList()
-    constanants = {"b" : 50, "c" : 60, "d" : 70, "f" : 40, "g" : 50, "h" : 50, "j" : 30, "k" : 40, "l" : 65, "m" : 70, "n" : 55, "p" : 60, "q" : 20, "r" : 40, "s" : 80, "t" : 75, "v" : 40, "w" : 25, "x" : 5, "y" : 15, "z" : 10}
+    constonants = {"b" : 50, "c" : 60, "d" : 70, "f" : 40, "g" : 50, "h" : 50, "j" : 30, "k" : 40, "l" : 65, "m" : 70, "n" : 55, "p" : 60, "q" : 20, "r" : 40, "s" : 80, "t" : 75, "v" : 40, "w" : 25, "x" : 5, "y" : 15, "z" : 10}
     vowels = list("aåäeioöu")
     
     for i in range(n):
@@ -36,8 +36,8 @@ def getIkeaProducts(n):
         word = [" "]
         for i in range(length - v):
             while True:
-                c = random.choice(list(constanants.keys()))
-                if random.randint(0, 99) < constanants[c]:
+                c = random.choice(list(constonants.keys()))
+                if random.randint(0, 99) < constonants[c]:
                     if not c == word[-1]:
                         word.append(c)
                         break
