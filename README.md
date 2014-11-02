@@ -20,8 +20,8 @@ How to use this tool:
 Once you've realised the benifits of this tool to revolutionise your workflow, you can deposit the files into your Python directory so you can simply `import ikea` to get more art-deco table lamps in your project.
 
 
-\*Swedish Designer Neural Network **
+\*Swedish Designer Neural Network †
 
-** No, it doesn't actually have one of them ***
+† No, it doesn't actually have one of them ‡
 
-*** But it should....
+‡ But it should....
