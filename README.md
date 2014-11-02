@@ -40,6 +40,8 @@ FUNJAC: a(n) flat-pack dresser
 MGKTCWÖÖ: a(n) luxurious bookcase
 
 PÄDIRAW: a(n) trendy coffee table
+
+
 ----
 
 \*Swedish Designer Neural Network <sup>†
