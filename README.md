@@ -13,7 +13,7 @@ How to use this tool:
    
    Call this code:
    
-      `getIkeaProducts(n)`
+      getIkeaProducts(n)
    
    Enjoy the endless different permutations that this program's inbuilt SDNN* can create at your desire
 
