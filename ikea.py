@@ -9,11 +9,18 @@ def getFurnitureList():
 
     return words
 
+def AnOrA(ch):
+    vowelsstd = ["a", "e", "i", "o", "u"]
+    if ch in vowelsstd:
+        return "an "
+    else:
+        return "a "
+
 def getAdjectiveList():
     adjectives = []
     with open("adjectives.txt", "r") as f:
         for i in f:
-            adjectives.append(i.strip())
+            adjectives.append(AnOrA(i.strip()[:1]) + i.strip())
     return adjectives
 
 def listAsStr(l):
@@ -45,4 +52,4 @@ def getIkeaProducts(n):
         for i in range(v):
             word.insert(random.randint(1, len(word)), random.choice(vowels))
 
-        print(listAsStr(word[1:]) + ": a(n) " + random.choice(adjectives) + " " + random.choice(furniture))
+        print(listAsStr(word[1:]) + ": " + random.choice(adjectives) + " " + random.choice(furniture))
