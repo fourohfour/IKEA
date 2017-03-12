@@ -3,6 +3,8 @@ IKEA
 
 ikea.py: The revolutionary python library for your furniture-related project.
 
+Simply `import ikea` to use this high-quality, extensively-tested, webscale library.
+
 ---
 
 ## API description
@@ -12,8 +14,6 @@ ikea.py: The revolutionary python library for your furniture-related project.
       ikea.getIkeaProducts(n)
 
 Generate `n` IKEA Projects
-
-Simply `import ikea` for 
 
 Sample Output:
 
